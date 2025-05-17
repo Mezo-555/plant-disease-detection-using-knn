@@ -167,7 +167,7 @@ def batch_predict(image_dir, models_dir="models"):
 # Example usage
 if __name__ == "__main__":
     # Single image prediction example
-    test_image = "data/PlantVillage/Pepper__bell___Bacterial_spot/f92689ca-b5db-4a0a-b865-a69ba215922f___JR_B.Spot 9040.JPG"
+    test_image = "PlantVillage/Pepper__bell___Bacterial_spot/f92689ca-b5db-4a0a-b865-a69ba215922f___JR_B.Spot 9040.JPG"
     disease, confidence = predict_disease(test_image)
     
     if confidence:
